@@ -525,8 +525,7 @@ export default function App() {
       <header className="header">
         <div className="header-inner">
           <div className="logo">
-            <div className="logo-hex">N</div>
-            <span className="logo-name">NEXUS</span>
+            <img src="/logo.png" alt="NEXUS" style={{ height: 36, width: "auto" }} />
             <span className="logo-tag">Account Intelligence</span>
           </div>
           <div className="header-center">

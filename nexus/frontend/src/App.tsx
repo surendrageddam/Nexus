@@ -439,7 +439,7 @@ function InputPanel({ onSubmit, isRunning, onStop }: {
 
 // ── Main App ─────────────────────────────────────────
 export default function App() {
-  const [theme, setTheme] = useState<"dark" | "light">("dark");
+  const [theme, setTheme] = useState<"dark" | "light">("light");
   const [activePage, setActivePage] = useState<"analyze" | "analytics">("analyze");
   const [log, setLog] = useState<LogEntry[]>([]);
   const [finalIntel, setFinalIntel] = useState<Record<string, unknown> | null>(null);

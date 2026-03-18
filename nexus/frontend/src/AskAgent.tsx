@@ -7,11 +7,9 @@ interface Message {
 }
 
 const SUGGESTED = [
-    "Why is the buying intent score low?",
+    "Summarize this account in one paragraph",
     "Who should we reach out to first?",
-    "What's the best outreach angle?",
-    "Is this a good fit account?",
-    "What does their tech stack tell us?",
+    "What do the intent signals tell us?",
 ];
 
 function inlineFormat(text: string): React.ReactNode[] {

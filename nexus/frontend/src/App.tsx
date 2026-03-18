@@ -338,7 +338,7 @@ function InputPanel({ onSubmit, isRunning, onStop }: {
   onStop: () => void;
 }) {
   const [visitorId, setVisitorId] = useState("V001");
-  const [ip, setIp] = useState("34.201.100.50");
+  const [ip, setIp] = useState("192.30.212.10");
   const [companyHint, setCompanyHint] = useState("");
   const [pages, setPages] = useState("/pricing\n/ai-sales-agent\n/case-studies");
   const [dwell, setDwell] = useState("222");
@@ -397,11 +397,11 @@ function InputPanel({ onSubmit, isRunning, onStop }: {
       </div>
       <div className="field">
         <label className="field-label">IP address</label>
-        <input className="field-input" value={ip} onChange={e => setIp(e.target.value)} placeholder="34.201.100.50" />
+        <input className="field-input" value={ip} onChange={e => setIp(e.target.value)} placeholder="192.30.212.10" />
       </div>
       <div className="field">
         <label className="field-label">Company hint <span className="field-hint">(optional)</span></label>
-        <input className="field-input" value={companyHint} onChange={e => setCompanyHint(e.target.value)} placeholder="e.g. Acme Corp" />
+        <input className="field-input" value={companyHint} onChange={e => setCompanyHint(e.target.value)} placeholder="e.g.United Wholesale Mortgage" />
       </div>
       <div className="field">
         <label className="field-label">Pages visited <span className="field-hint">(one per line)</span></label>
